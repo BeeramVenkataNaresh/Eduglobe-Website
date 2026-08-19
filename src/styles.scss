@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
 
+/* Global theme: update these values to change the visual identity site-wide. */
+:root {
+  --theme-ink: #102c45;
+  --theme-cream: #faf7ef;
+  --theme-coral: #ed645f;
+  --theme-yellow: #fbc655;
+  --theme-sky: #b9e0e8;
+  --theme-muted: #5f7282;
+}
+
+/* Existing components consume these semantic variables. */
+app-root {
+  --ink: var(--theme-ink) !important;
+  --cream: var(--theme-cream) !important;
+  --coral: var(--theme-coral) !important;
+  --yellow: var(--theme-yellow) !important;
+  --sky: var(--theme-sky) !important;
+  --muted: var(--theme-muted) !important;
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: #faf7ef; font-family: 'DM Sans', Arial, sans-serif; }
+body { margin: 0; background: var(--theme-cream); font-family: 'DM Sans', Arial, sans-serif; }

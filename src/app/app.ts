@@ -1,4 +1,5 @@
 import { Component, signal } from '@angular/core';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,8 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.scss'
 })
 export class App {
+  /** Customer-specific details come from src/environments/environment.ts. */
+  protected readonly customer = environment.customer;
   protected readonly menuOpen = signal(false);
   protected readonly activeDrop = signal<string | null>(null);
 

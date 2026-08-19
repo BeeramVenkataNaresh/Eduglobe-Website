@@ -3,7 +3,7 @@ import { appConfig } from './app/app.config';
 import { App } from './app/app';
 import { environment } from './environments/environment';
 
-document.title = `${environment.customer.brandName} ${environment.customer.brandTagline}`;
+document.title = `${environment.customer.name} ${environment.customer.tagline}`;
 
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));

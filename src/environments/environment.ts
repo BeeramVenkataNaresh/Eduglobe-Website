@@ -6,10 +6,10 @@
 export const environment = {
   production: true,
   customer: {
-    brandName: 'Edu Globe',
-    brandTagline: 'Ecademy',
-    brandMark: 'EG',
-    supportEmail: 'hello@eduglobeecademy.com',
-    location: 'Toronto',
+    name: 'Edu Globe',
+    tagline: 'Ecademy',
+    initials: 'EG',
+    email: 'hello@eduglobeecademy.com',
+    city: 'Toronto',
   },
 } as const;

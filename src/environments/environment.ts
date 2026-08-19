@@ -11,6 +11,5 @@ export const environment = {
     brandMark: 'EG',
     supportEmail: 'hello@eduglobeecademy.com',
     location: 'Toronto',
-    copyrightYear: 2026,
   },
 } as const;

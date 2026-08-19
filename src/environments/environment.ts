@@ -11,7 +11,8 @@ export const environment = {
     name: 'Edu Globe Ecademy',
     tagline: 'Learn Beyond Boundaries',
     initials: 'EGE',
-    logo: '/images/logo.png',
+    logo: '/images/logo-icon-transparent.png',
+    logoName: '/images/logo-name-transparent.png',
 
     email: 'admin@eduglobeservices.com',
     phone: '+1 (647)-641-3585',
